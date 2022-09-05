@@ -1,0 +1,45 @@
+.App {
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+.App nav {
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 10px 5px rgba(0,0,0,0.5);
+}
+.App nav ul {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.App nav ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App nav ul li a {
+  text-decoration: none;
+  font-size: 22px;
+}
+.prof {
+  width: 100%;
+  min-height: 89vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+  background: radial-gradient(15% 20% ,circle #f5f50a #fff);
+  font-family: 'Courier New', Courier, monospace;
+
+}
